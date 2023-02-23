@@ -9,7 +9,6 @@ const Header = () => {
     const handleScroll = () => {
       if (window.scrollY > 0) {
         setIsScrolled(true);
-        console.log("scroll");
       } else {
         setIsScrolled(false);
       }
@@ -37,7 +36,7 @@ const Header = () => {
           <li className="headerLink">TV Shows</li>
           <li className="headerLink">Movies</li>
           <li className="headerLink">New & Popular</li>
-          <li className="headerLink">My Lít</li>
+          <li className="headerLink">My List</li>
         </ul>
       </div>
 
